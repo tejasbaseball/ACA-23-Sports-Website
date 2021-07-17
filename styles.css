@@ -1,0 +1,96 @@
+body
+{
+    background-image:url("../ACA\ 23-Sports\ Website/steph.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-color:blue;
+    font: normal 16px "Helvetica Neue", verdana;
+}
+.nav
+{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+ul li
+{
+    list-style:none;
+}
+ul li a
+{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:white;
+    font-size:0.875em;
+    text-decoration:none;
+    padding:1em;
+    white-space:nowrap;
+    letter-spacing: 1px;
+}
+ul li a:hover
+{
+    border: 3px solid white;
+}
+.header
+{
+    padding:20px;
+    height:100vh;
+    /* background:linear-gradient(blue,purple); */
+    background-size:cover;
+    position:relative;
+}
+.header h1
+{
+    margin:0;
+    font-weight:900;
+    font-size:3rem;
+    text-align:center;
+    color:white;
+    margin-bottom:50px;
+}
+.header .content
+{
+    position:relative;
+    top:50%;
+    text-align:center;
+}
+.flex1
+{
+    display:flex;
+    color:white;
+    padding:150px 100px 150px 100px;
+    position:center;
+    background:linear-gradient(to bottom,green, red);
+}
+.flex1 h1
+{
+    font-size:325%;
+    text-align:center;
+}
+.flex1 p
+{
+    font-weight:400%;
+    font-family:verdana;
+    font-size: 150%;
+    text-align:center;
+    padding:0 20% 0 20%;
+}
+.flex2
+{
+    color:white;
+    padding:150px 100px 150px 100px;
+    position:center;
+    background:linear-gradient(to bottom, #0f2027,#203a43, #2c5364);
+}
+.flex2 h1
+{
+    font-size:325%;
+    text-align:center;
+}
+.flex2 li
+{
+    font-weight:400%;
+    font-family:verdana;
+    font-size: 150%;
+    padding:0 10% 0 10%;
+}
