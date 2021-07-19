@@ -1,6 +1,6 @@
 body
 {
-    background-image:url("../ACA\ 23-Sports\ Website/steph.jpg");
+    background-image:url("../steph.jpg");
     background-repeat:no-repeat;
     background-size:100%;
     background-color:blue;
@@ -45,7 +45,7 @@ ul li a:hover
     font-weight:900;
     font-size:3rem;
     text-align:center;
-    color:white;
+    color:rgb(42, 165, 149);
     margin-bottom:50px;
 }
 .header .content
