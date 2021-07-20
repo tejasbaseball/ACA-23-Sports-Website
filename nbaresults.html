@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylenba.css">
+    <title>Steph Curry's Results Per Season</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="nbaresults.html">NBA Results</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title">
+        <h1>Select the year to display the Golden State Warriors (The team Steph plays on) Results</h1>
+    </div>
+    <div class="main">
+        <form>
+            <select id="year" name="year">
+                <option disabled="disabled" required selected="selected">Choose the year</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="./scriptnbaresults.js"></script>
+</body>
+</html>
