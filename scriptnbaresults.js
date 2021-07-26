@@ -9,3 +9,19 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  document.getElementById('mainForm').addEventListener('submit',submitForm);
+function submitForm(e)
+{
+  e.preventDefault();
+  var y=document.getElementById("year").value;
+  y=y.toLowerCase();
+  readResults(y);
+}
+function readResults(year)
+{
+  var results=firebase.database().ref(year);
+  results.on('value',(data)=>{
+    var rank=data.val();
+    document.getElementById("result").innerHTML="<br> The Warriors finished: "+rank+" in "+year;
+  })
+}

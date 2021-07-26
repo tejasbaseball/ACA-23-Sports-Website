@@ -21,7 +21,7 @@
         <h1>Select the year to display the Golden State Warriors (The team Steph plays on) Results</h1>
     </div>
     <div class="main">
-        <form>
+        <form id="mainForm">
             <select id="year" name="year">
                 <option disabled="disabled" required selected="selected">Choose the year</option>
                 <option>2010</option>
@@ -38,9 +38,10 @@
                 <option>2021</option>
             </select>
             <input type="submit" id="submit">
+            <h3 style="color:red"><span id="result"></span></h3>
         </form>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
     <script src="./scriptnbaresults.js"></script>
 </body>
 </html>
